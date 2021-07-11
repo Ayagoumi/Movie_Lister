@@ -20,28 +20,28 @@ const Trending = () => {
     <div>
       <span>Trending</span>
 
-      <div class="container mx-auto">
+      <div className="container mx-auto">
         {trendingMovies.map((movie) => (
-          <div class="inline-block px-2 w-72 h-64">
+          <div className="inline-block px-2 w-72 h-64">
             <div
-              class="bg-white rounded-lg overflow-hidden shadow-xl my-8 py-4"
+              className="bg-white rounded-lg overflow-hidden shadow-xl my-8 py-4"
               key={movie.id}
             >
               <img
                 src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`}
                 alt="movieimage"
-                class="w-full h-64"
+                className="w-full h-64"
               />
-              {/* <div class="p-4">
-                <p class="font-medium text-lg">
+              {/* <div className="p-4">
+                <p className="font-medium text-lg">
                   Title:{" "}
-                  <span class="font-normal text-base leadin-relaxed">
+                  <span className="font-normal text-base leadin-relaxed">
                     {movie.title}
                   </span>
                 </p>
-                <p class="font-medium text-lg">
+                <p className="font-medium text-lg">
                   Year of Release:{" "}
-                  <span class="font-normal text-base">
+                  <span className="font-normal text-base">
                     {movie.release_date}
                   </span>
                 </p>

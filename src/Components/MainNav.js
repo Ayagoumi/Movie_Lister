@@ -9,7 +9,7 @@ const MainNav = () => {
       >
         <div id="tabs" class="flex justify-between">
           <a
-            href="/"
+            href="trending"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -55,10 +55,10 @@ const MainNav = () => {
                 ></rect>
               </g>
             </svg>
-            <span class="tab tab-home block text-xs">Home</span>
+            <span class="tab tab-trending block text-xs">Trending</span>
           </a>
           <a
-            href="trending"
+            href="boxoffice"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -104,10 +104,10 @@ const MainNav = () => {
                 </g>
               </g>
             </svg>
-            <span class="tab tab-kategori block text-xs">Trending</span>
+            <span class="tab tab-boxoffice block text-xs">Box Office</span>
           </a>
           <a
-            href="#"
+            href="/"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -139,7 +139,7 @@ const MainNav = () => {
             <span class="tab tab-explore block text-xs">Explore</span>
           </a>
           <a
-            href="#"
+            href="movies"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -185,10 +185,10 @@ const MainNav = () => {
                 </g>
               </g>
             </svg>
-            <span class="tab tab-whishlist block text-xs">Whishlist</span>
+            <span class="tab tab-movies block text-xs">Movies</span>
           </a>
           <a
-            href="#"
+            href="series"
             class="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
           >
             <svg
@@ -234,7 +234,7 @@ const MainNav = () => {
                 </g>
               </g>
             </svg>
-            <span class="tab tab-account block text-xs">Account</span>
+            <span class="tab tab-series block text-xs">Series</span>
           </a>
         </div>
       </section>
