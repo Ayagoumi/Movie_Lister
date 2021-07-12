@@ -1,0 +1,35 @@
+.dot.active {
+  background: #93c5fd;
+}
+
+@media (min-width: 1024px) {
+  .image {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    -webkit-box-reflect: right -2px -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(transparent),
+        color-stop(20%, transparent),
+        to(rgba(255, 255, 255, 0.5))
+      );
+  }
+  .reflect {
+    width: 100%;
+    margin: auto;
+    -webkit-box-reflect: right -2px -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(transparent),
+        color-stop(20%, transparent),
+        to(rgba(255, 255, 255, 0.5))
+      );
+    /* -webkit-box-reflect: left 0px -webkit-gradient(linear, right top, left top, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.5))); */
+  }
+  img {
+    width: 100%;
+  }
+}
