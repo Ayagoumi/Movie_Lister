@@ -136,7 +136,7 @@ const MainNav = () => {
                 ></circle>
               </g>
             </svg>
-            <span class="tab tab-explore block text-xs">Explore</span>
+            <span class="tab tab-search block text-xs">Search</span>
           </a>
           <a
             href="movies"
