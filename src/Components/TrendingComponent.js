@@ -14,7 +14,6 @@ const TrendingComponent = () => {
     slides: trendingMovies.length,
     loop: true,
     duration: 2000,
-    loop: true,
     initial: 0,
     slideChanged(s) {
       setCurrentSlide(s.details().relativeSlide);
@@ -76,10 +75,10 @@ const TrendingComponent = () => {
             src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
             alt={movie.title}
             style={{
-              transform: "translateY(-50%) translateX(-50%)",
-              webkitTransform: "translateY(-50%) translateX(-50%)",
+              // transform: "translateY(-50%) translateX(-50%)",
+              // webkitTransform: "translateY(-50%) translateX(-50%)",
             }}
-            className="absolute w-full h-full top-1/2 left-1/2"
+            className="absolute top-0 w-full"
           />
         </div>
       ))}
