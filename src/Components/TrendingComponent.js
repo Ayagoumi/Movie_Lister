@@ -60,7 +60,7 @@ const TrendingComponent = () => {
 
   useEffect(() => {
     fetchTrendingMovies();
-    console.log(trendingMovies);
+    // console.log(trendingMovies);
   }, []);
 
   return (
@@ -70,7 +70,17 @@ const TrendingComponent = () => {
       className="relative overflow-hidden flex items-center w-full"
     >
       {trendingMovies?.map((movie, index) => (
-        <div key={index} style={{ opacity: opacities[index] }}>
+        <div
+          key={index}
+          style={{
+            // position: "relative",
+            // zIndex: 1,
+            // backgroundImage: `url("https://image.tmdb.org/t/p/original${movie.poster_path}")`,
+            // backgroundSize: "100% 100%",
+            // backgroundRepeat: "no-repeat",
+            opacity: opacities[index],
+          }}
+          >
           <img
             src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
             alt={movie.title}

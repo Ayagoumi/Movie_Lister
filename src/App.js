@@ -8,7 +8,7 @@ import "./App.css";
 // import Movies from "./View/Movies";
 // import BoxOffice from "./View/BoxOffice";
 // import MainNav from "./Components/MainNav";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router/*, Switch, Route*/ } from "react-router-dom";
 import TrendingComponent from "./Components/TrendingComponent";
 import MoviesComponents from "./Components/MoviesComponents";
 
