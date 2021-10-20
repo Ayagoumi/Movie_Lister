@@ -10,14 +10,17 @@ const Trending = () => {
 
   const getMovies = async () => {
     setSelection("movie");
+    setLoading(true);
     setTrendingMovies([]);
   };
   const getAll = async () => {
     setSelection("all");
+    setLoading(true);
     setTrendingMovies([]);
   };
   const getTv = async () => {
     setSelection("tv");
+    setLoading(true);
     setTrendingMovies([]);
   };
 
