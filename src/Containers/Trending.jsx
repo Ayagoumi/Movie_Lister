@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import SkeletonCardMap from "./skeletonCardMap";
+import SkeletonCardMap from "../Components/skeletonCardMap";
 import { ViewListIcon, VideoCameraIcon } from "@heroicons/react/outline";
 
 const Trending = () => {
